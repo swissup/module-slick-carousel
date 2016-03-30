@@ -25,6 +25,10 @@ bin/magento setup:upgrade
 </div>
 ```
 
-See the list of available options at [official site](http://kenwheeler.github.io/slick/#settings)
+1. See the list of available options at slick's carousel [official site][slick_settings]
+2. See the [Magento's guide][magento_initialize_js] on how to additionally
+initialize JS component.
 
 [slick_homepage]: https://github.com/kenwheeler/slick
+[slick_settings]: http://kenwheeler.github.io/slick/#settings
+[magento_initialize_js]: http://devdocs.magento.com/guides/v2.0/javascript-dev-guide/javascript/js_init.html

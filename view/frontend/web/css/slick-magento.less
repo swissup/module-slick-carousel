@@ -1,0 +1,18 @@
+.slick-prev,
+.slick-next,
+.slick-dots li button {
+    .slick-reset-button();
+}
+.slick-prev:before,
+.slick-next:before {
+    color: #aaa;
+}
+
+.slick-reset-button() {
+    box-shadow: none !important;
+    &:hover,
+    &:focus,
+    &:active {
+        border: none;
+    }
+}

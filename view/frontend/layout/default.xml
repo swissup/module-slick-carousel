@@ -1,0 +1,7 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Swissup_SlickCarousel::css/slick.css"/>
+        <css src="Swissup_SlickCarousel::css/slick-theme.css"/>
+        <css src="Swissup_SlickCarousel::css/slick-magento.css"/>
+    </head>
+</page>

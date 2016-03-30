@@ -15,13 +15,13 @@ bin/magento setup:upgrade
 ### Usage
 
 ```html
-<div data-mage-init='{"slickCarousel": {"slidesToShow": 4, "slidesToScroll": 4}}'>
-  <div><h3>1</h3></div>
-  <div><h3>2</h3></div>
-  <div><h3>3</h3></div>
-  <div><h3>4</h3></div>
-  <div><h3>5</h3></div>
-  <div><h3>6</h3></div>
+<div data-mage-init='{"slick": {"slidesToShow": 4, "slidesToScroll": 1, "dots": true, "autoplay": true, "variableWidth": true}}'>
+    <div style="margin-right: 10px"><img src="http://placehold.it/350x150" alt=""/></div>
+    <div style="margin-right: 10px"><img src="http://placehold.it/150x150" alt=""/></div>
+    <div style="margin-right: 10px"><img src="http://placehold.it/300x150" alt=""/></div>
+    <div style="margin-right: 10px"><img src="http://placehold.it/450x150" alt=""/></div>
+    <div style="margin-right: 10px"><img src="http://placehold.it/250x150" alt=""/></div>
+    <div style="margin-right: 10px"><img src="http://placehold.it/350x150" alt=""/></div>
 </div>
 ```
 

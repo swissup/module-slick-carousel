@@ -15,7 +15,7 @@ bin/magento setup:upgrade
 ### Usage
 
 ```html
-<div data-mage-init='{"slick": {"slidesToShow": 4, "slidesToScroll": 4}}'>
+<div data-mage-init='{"slickCarousel": {"slidesToShow": 4, "slidesToScroll": 4}}'>
   <div><h3>1</h3></div>
   <div><h3>2</h3></div>
   <div><h3>3</h3></div>

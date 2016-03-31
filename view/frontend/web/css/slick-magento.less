@@ -22,3 +22,9 @@
         border: none;
     }
 }
+
+// Bugfix for wide page: https://github.com/kenwheeler/slick/issues/1195
+// need to give `min-width: 0` to child of `display: flex` element
+.columns .column.main {
+    min-width: 0;
+}

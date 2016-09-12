@@ -12,27 +12,8 @@ bin/magento module:enable Swissup_SlickCarousel
 bin/magento setup:upgrade
 ```
 
-### Usage
+### Docs
 
-Add the following or similar code to Cms Page or Block:
-
-```html
-<div data-mage-init='{"slick": {"slidesToShow": 4, "slidesToScroll": 1, "dots": false, "autoplay": true, "swipeToSlide": true}}'>
-    <div style="margin-right: 10px"><img src="http://placehold.it/350x150" alt=""/></div>
-    <div style="margin-right: 10px"><img src="http://placehold.it/350x150" alt=""/></div>
-    <div style="margin-right: 10px"><img src="http://placehold.it/350x150" alt=""/></div>
-    <div style="margin-right: 10px"><img src="http://placehold.it/350x150" alt=""/></div>
-    <div style="margin-right: 10px"><img src="http://placehold.it/350x150" alt=""/></div>
-    <div style="margin-right: 10px"><img src="http://placehold.it/350x150" alt=""/></div>
-</div>
-```
-
-### Advanced Usage
-
- -  See the list of available options at slick's carousel [official site][slick_settings]
- -  See the [Magento's guide][magento_initialize_js] on how to additionally
-    initialize JS component.
+See the docs at [swissuplabs site](http://docs.swissuplabs.com/m2/extensions/slick-carousel/).
 
 [slick_homepage]: https://github.com/kenwheeler/slick
-[slick_settings]: http://kenwheeler.github.io/slick/#settings
-[magento_initialize_js]: http://devdocs.magento.com/guides/v2.0/javascript-dev-guide/javascript/js_init.html

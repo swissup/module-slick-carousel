@@ -19,6 +19,8 @@ define([
      * @param  {Element} el
      */
     $.fn.slickwrapper = function(options, el) {
+        el = el || this;
+
         if (options.el) {
             $(el).find(options.el).slick(options);
         } else {

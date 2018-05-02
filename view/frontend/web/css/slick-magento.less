@@ -1,9 +1,26 @@
+// prevent styles jumping after slider initialization
+.slick-slider:not(.slick-initialized) {
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+    > * {
+        flex-shrink: 0;
+        flex-grow: 0;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+}
 .slick-slider {
     .slick-slide {
         padding: 10px;
+        box-sizing: border-box;
     }
 }
 
+.slick-prev,
+.slick-next {
+    z-index: 10; // Highlight compatibility
+}
 .slick-prev,
 .slick-next,
 .slick-dots li button {

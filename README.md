@@ -6,9 +6,7 @@
 
 ```bash
 cd <magento_root>
-
-composer require swissup/slick-carousel
-
+composer require swissup/module-slick-carousel
 bin/magento module:enable Swissup_SlickCarousel
 bin/magento setup:upgrade
 ```

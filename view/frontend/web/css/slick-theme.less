@@ -22,17 +22,15 @@
 }
 
 /* Icons */
-@font-face{
+@font-face {
     font-family: 'slick';
     font-weight: normal;
     font-style: normal;
-
     src: url('@{slick-font-path}slick.eot');
     src: url('@{slick-font-path}slick.eot?#iefix') format('embedded-opentype'), url('@{slick-font-path}slick.woff') format('woff'), url('@{slick-font-path}slick.ttf') format('truetype'), url('@{slick-font-path}slick.svg#slick') format('svg');
 }
 
 /* Arrows */
-
 .slick-prev,
 .slick-next {
     position: absolute;
@@ -76,13 +74,13 @@
 
 .slick-prev {
     left: -25px;
-    &[dir="rtl"] {
+    [dir="rtl"] & {
         left: auto;
         right: -25px;
     }
     &:before {
         content: @slick-prev-character;
-        &[dir="rtl"] {
+        [dir="rtl"] & {
             content: @slick-next-character;
         }
     }
@@ -90,13 +88,13 @@
 
 .slick-next {
     right: -25px;
-    &[dir="rtl"] {
+    [dir="rtl"] & {
         left: -25px;
         right: auto;
     }
     &:before {
         content: @slick-next-character;
-        &[dir="rtl"] {
+        [dir="rtl"] & {
             content: @slick-prev-character;
         }
     }

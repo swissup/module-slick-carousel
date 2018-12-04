@@ -1,7 +1,9 @@
 define([
     'jquery',
     'Swissup_SlickCarousel/js/slick'
-], function($, slick) {
+], function ($) {
+    'use strict';
+
     /**
      * Allows to wrap any content into
      *
@@ -18,7 +20,7 @@ define([
      * @param  {Object} options
      * @param  {Element} el
      */
-    $.fn.slickwrapper = function(options, el) {
+    $.fn.slickwrapper = function (options, el) {
         el = el || this;
 
         if (options.el) {
@@ -26,7 +28,9 @@ define([
         } else {
             $(el).slick(options);
         }
+
         return this;
-    }
+    };
+
     return $.fn.slickwrapper;
 });

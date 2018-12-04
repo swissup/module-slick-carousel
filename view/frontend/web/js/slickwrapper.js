@@ -21,6 +21,9 @@ define([
      * @param  {Element} el
      */
     $.fn.slickwrapper = function (options, el) {
+        options = $.extend({
+            rows: 0
+        }, options);
         el = el || this;
 
         if (options.el) {
